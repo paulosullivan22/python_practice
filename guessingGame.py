@@ -19,3 +19,7 @@ while True:
         else:
             print("Thanks for playing")
             break
+
+
+def is_palindrome(str):
+    return str == str[::-1]
